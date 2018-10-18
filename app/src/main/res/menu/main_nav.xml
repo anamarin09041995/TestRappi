@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/movies"
+        android:title="@string/movies">
+        <menu>
+            <item android:id="@+id/nav_popular_movies"
+                android:title="@string/popular"
+                android:icon="@drawable/ic_popular"
+                />
+            <item
+                android:id="@+id/nav_top_rated_movies"
+                android:title="@string/top_rated"
+                android:icon="@drawable/ic_top_rated"
+                />
+            <item
+                android:id="@+id/nav_upcoming_movies"
+                android:icon="@drawable/ic_calendar"
+                android:title="@string/upcoming"
+                />
+        </menu>
+    </item>
+    <item android:id="@+id/series"
+        android:title="@string/series">
+        <menu>
+            <item android:id="@+id/nav_popular_series"
+                android:title="@string/popular"
+                android:icon="@drawable/ic_popular"
+                />
+            <item
+                android:id="@+id/nav_top_rated_series"
+                android:title="@string/top_rated"
+                android:icon="@drawable/ic_top_rated"
+                />
+        </menu>
+    </item>
+
+</menu>

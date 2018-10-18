@@ -3,4 +3,23 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="overview">Descripcion</string>
+    <string name="date">Fecha</string>
+    <string name="vote_average">Voto promedio</string>
+    <string name="search">Busqueda</string>
+    <string name="upcoming">Proximos estrenos</string>
+    <string name="series">Series</string>
+    <string name="popular">Populares</string>
+    <string name="top_rated">Mejor calificadas</string>
+    <string name="movies">Peliculas</string>
+    <string name="movie_popular">Peliculas Populares</string>
+    <string name="movie_top_rated">Peliculas Mejor calificadas</string>
+    <string name="movie_upcoming">Proximos estrenos</string>
+    <string name="serie_popular">Series Populares</string>
+    <string name="serie_top_rated">Series Mejor calificadas</string>
+    <string name="category">Categorias</string>
+    <string name="menu_close">Menu cerrado</string>
+    <string name="menu_open">Categorias</string>
+    <string name="search_movies">Buscar Peliculas</string>
+    <string name="search_series">Buscar Series</string>
 </resources>
