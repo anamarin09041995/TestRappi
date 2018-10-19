@@ -1,12 +1,18 @@
 package com.anama.testrappi.ui.main.serie
 
 
+import android.content.Intent
 import android.os.Bundle
+import android.support.v4.app.ActivityOptionsCompat
 import android.support.v4.app.Fragment
+import android.support.v4.view.ViewCompat
 import android.support.v7.widget.LinearLayoutManager
+import android.transition.Explode
+import android.transition.Slide
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.Window
 import com.anama.testrappi.R
 import com.anama.testrappi.data.Global
 import com.anama.testrappi.data.model.Item
@@ -15,12 +21,15 @@ import com.anama.testrappi.ui.adapter.ItemAdapter
 import com.anama.testrappi.ui.detail.DetailActivity
 import com.anama.testrappi.util.LifeDisposable
 import com.anama.testrappi.util.subscribeByShot
+import com.facebook.drawee.view.SimpleDraweeView
 import io.reactivex.rxkotlin.subscribeBy
+import kotlinx.android.synthetic.main.activity_detail.*
 import kotlinx.android.synthetic.main.fragment_serie.*
 import org.jetbrains.anko.support.v4.startActivity
 import org.jetbrains.anko.support.v4.toast
 import org.koin.android.ext.android.inject
 import org.koin.android.viewmodel.ext.android.viewModel
+
 
 class SerieFragment : Fragment(){
 
@@ -32,6 +41,7 @@ class SerieFragment : Fragment(){
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
+
         return inflater.inflate(R.layout.fragment_serie, container, false)
     }
 
@@ -60,6 +70,7 @@ class SerieFragment : Fragment(){
     fun navigateToDetail(item: Item){
         global.selected = item
         startActivity<DetailActivity>()
+
     }
 
     companion object {

@@ -22,4 +22,5 @@
     <string name="menu_open">Categorias</string>
     <string name="search_movies">Buscar Peliculas</string>
     <string name="search_series">Buscar Series</string>
+    <string name="transition_name">simple_transition</string>
 </resources>
